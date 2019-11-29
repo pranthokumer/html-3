@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Practice</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li class="css-layout"><a href="css_layout.html">CSS Layout</a></li>
+		<li class="css-position"><a href="css_position.html">CSS Position</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>	
+<div class="hbanner">
+	<div class="homebutton"><a href="#">Learn More</a></div>
+</div>
+
+<div class="cssfixed">
+	<h1>This background image is fixed. </h1>
+
+	<dir class="circle"></dir>
+</div>
+
+<div class="background_clip content">
+	<h1>The background-clip property</h1>
+	<h3>The background-clip property defines how far the background should extend with in an element.</h3>
+	<h3>background clip: border-box(this is default):</h3>
+	<div id="bgclip-ex1">
+		the background extends befind the border.
+	</div>
+	<h3>background clip:padding box</h3>
+	<div id="bgclip-ex2">
+		<p>the background extends to the inside edge of the border.</p>
+	</div>
+	<h3>background clip: content-box.</h3>
+	<div id="bgclip-ex3">
+		The background extends to the edge of the content box.
+	</div>
+	</div>
+
+	<div class="background_origin content">
+	<h1>The Background origin property</h1>
+	
+	<h3>background-origin:padding-box</h3>
+	<div id="bgorigin-ex1">
+		<h2>the background image starts from the upper left corner othe padding edge.</h2>
+	</div>
+	<h3>background-origin:border-box</h3>
+	<div id="bgorigin-ex2">
+		<h2>the background image stats from the upper left corner of the border.</h2>
+	</div>
+	<h3>background origin:content-box</h3>
+	<div id="bgorigin-ex3">
+		the background image starts form the upper left corner of the content.
+	</div>
+	</div>
+
+	<div class="css-border content">
+		<h1>CSS Border Properties</h1>
+		<h3>The CSS <i>border</i> properties allow us to specify the style, width, and color of an element's border.</h3>
+		<p class="dotted">A dotted border.</p>
+		<p class="dashed"> A dashed border.</p>
+		<p class="solid">A solid border.</p>
+		<p class="double"> A double border. </p>
+		<p class="groove"> A groove border.(Defines a 3D grooved border. The effect depends on the border color value.)</p>
+		<p class="ridge"> A ridge border.(Defines a 3D ridged border. The effect depends on the border color value.)</p>
+		<p class="inset">A inset border. (Defines a 3D inset border. The effect depends on the border color value.)</p>
+		<p class="outset"> A outset border. (Defines a 3D outset border. The effect depends on the border color value.)</p>
+		<p class="none"> A no border.</p>
+		<p class="hidden"> A hidden border.</p>
+		<p class="mixborder"> A mix border and mix color.</p>
+
+
+	</div>
+
+</body>
+</html>
